@@ -1,0 +1,70 @@
+17:07:50 **** Incremental Build of configuration Debug for project STM32F4xx-Nucleo-DataLogTerminal ****
+make all 
+'Building file: F:/STM32CubeExpansion_MEMS1_V2.0.0/Projects/Multi/Examples/DataLogTerminal/Src/freertos.c'
+'Invoking: MCU GCC Compiler'
+F:\STM32CubeExpansion_MEMS1_V2.0.0\Projects\Multi\Examples\DataLogTerminal\SW4STM32\STM32F401RE-Nucleo\STM32F4xx-Nucleo-DataLogTerminal\Debug
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DUSE_HAL_DRIVER -DSTM32F401xE -DUSE_STM32F4XX_NUCLEO -I"F:/STM32CubeExpansion_MEMS1_V2.0.0/Projects/Multi/Examples/DataLogTerminal/Inc" -I"F:/STM32CubeExpansion_MEMS1_V2.0.0/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS" -I"F:/STM32CubeExpansion_MEMS1_V2.0.0/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F" -I"F:/STM32CubeExpansion_MEMS1_V2.0.0/Drivers/CMSIS/Include" -I"F:/STM32CubeExpansion_MEMS1_V2.0.0/Middlewares/Third_Party/FreeRTOS/Source/include" -I"F:/STM32CubeExpansion_MEMS1_V2.0.0/Drivers/CMSIS/Device/ST/STM32F4xx/Include" -I"F:/STM32CubeExpansion_MEMS1_V2.0.0/Drivers/STM32F4xx_HAL_Driver/Inc" -I"F:/STM32CubeExpansion_MEMS1_V2.0.0/Drivers/BSP/STM32F4xx-Nucleo" -I"F:/STM32CubeExpansion_MEMS1_V2.0.0/Drivers/CMSIS/Include" -I"F:/STM32CubeExpansion_MEMS1_V2.0.0/Drivers/BSP/Components/Common" -I"F:/STM32CubeExpansion_MEMS1_V2.0.0/Drivers/BSP/Components/hts221" -I"F:/STM32CubeExpansion_MEMS1_V2.0.0/Drivers/BSP/Components/lis3mdl" -I"F:/STM32CubeExpansion_MEMS1_V2.0.0/Drivers/BSP/Components/lps25hb" -I"F:/STM32CubeExpansion_MEMS1_V2.0.0/Drivers/BSP/Components/lsm6ds0" -I"F:/STM32CubeExpansion_MEMS1_V2.0.0/Drivers/BSP/Components/lsm6ds3" -I"F:/STM32CubeExpansion_MEMS1_V2.0.0/Drivers/BSP/X_NUCLEO_IKS01A1"  -include"F:/STM32CubeExpansion_MEMS1_V2.0.0/Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f401xe.h" -Os -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"Example/User/freertos.d" -MT"Example/User/freertos.o" -o "Example/User/freertos.o" "F:/STM32CubeExpansion_MEMS1_V2.0.0/Projects/Multi/Examples/DataLogTerminal/Src/freertos.c"
+'Finished building: F:/STM32CubeExpansion_MEMS1_V2.0.0/Projects/Multi/Examples/DataLogTerminal/Src/freertos.c'
+' '
+'Building file: F:/STM32CubeExpansion_MEMS1_V2.0.0/Projects/Multi/Examples/DataLogTerminal/Src/main.c'
+'Invoking: MCU GCC Compiler'
+F:\STM32CubeExpansion_MEMS1_V2.0.0\Projects\Multi\Examples\DataLogTerminal\SW4STM32\STM32F401RE-Nucleo\STM32F4xx-Nucleo-DataLogTerminal\Debug
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DUSE_HAL_DRIVER -DSTM32F401xE -DUSE_STM32F4XX_NUCLEO -I"F:/STM32CubeExpansion_MEMS1_V2.0.0/Projects/Multi/Examples/DataLogTerminal/Inc" -I"F:/STM32CubeExpansion_MEMS1_V2.0.0/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS" -I"F:/STM32CubeExpansion_MEMS1_V2.0.0/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F" -I"F:/STM32CubeExpansion_MEMS1_V2.0.0/Drivers/CMSIS/Include" -I"F:/STM32CubeExpansion_MEMS1_V2.0.0/Middlewares/Third_Party/FreeRTOS/Source/include" -I"F:/STM32CubeExpansion_MEMS1_V2.0.0/Drivers/CMSIS/Device/ST/STM32F4xx/Include" -I"F:/STM32CubeExpansion_MEMS1_V2.0.0/Drivers/STM32F4xx_HAL_Driver/Inc" -I"F:/STM32CubeExpansion_MEMS1_V2.0.0/Drivers/BSP/STM32F4xx-Nucleo" -I"F:/STM32CubeExpansion_MEMS1_V2.0.0/Drivers/CMSIS/Include" -I"F:/STM32CubeExpansion_MEMS1_V2.0.0/Drivers/BSP/Components/Common" -I"F:/STM32CubeExpansion_MEMS1_V2.0.0/Drivers/BSP/Components/hts221" -I"F:/STM32CubeExpansion_MEMS1_V2.0.0/Drivers/BSP/Components/lis3mdl" -I"F:/STM32CubeExpansion_MEMS1_V2.0.0/Drivers/BSP/Components/lps25hb" -I"F:/STM32CubeExpansion_MEMS1_V2.0.0/Drivers/BSP/Components/lsm6ds0" -I"F:/STM32CubeExpansion_MEMS1_V2.0.0/Drivers/BSP/Components/lsm6ds3" -I"F:/STM32CubeExpansion_MEMS1_V2.0.0/Drivers/BSP/X_NUCLEO_IKS01A1"  -include"F:/STM32CubeExpansion_MEMS1_V2.0.0/Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f401xe.h" -Os -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"Example/User/main.d" -MT"Example/User/main.o" -o "Example/User/main.o" "F:/STM32CubeExpansion_MEMS1_V2.0.0/Projects/Multi/Examples/DataLogTerminal/Src/main.c"
+F:/STM32CubeExpansion_MEMS1_V2.0.0/Projects/Multi/Examples/DataLogTerminal/Src/main.c: In function 'main':
+F:/STM32CubeExpansion_MEMS1_V2.0.0/Projects/Multi/Examples/DataLogTerminal/Src/main.c:160:2: warning: initialization from incompatible pointer type
+  osTimerDef(softTimer, IMUTimerCallback);
+  ^
+F:/STM32CubeExpansion_MEMS1_V2.0.0/Projects/Multi/Examples/DataLogTerminal/Src/main.c:160:2: warning: (near initialization for 'os_timer_def_softTimer.ptimer')
+F:/STM32CubeExpansion_MEMS1_V2.0.0/Projects/Multi/Examples/DataLogTerminal/Src/main.c: In function 'Accelero_Sensor_Handler':
+F:/STM32CubeExpansion_MEMS1_V2.0.0/Projects/Multi/Examples/DataLogTerminal/Src/main.c:315:9: warning: format '%d' expects argument of type 'int', but argument 4 has type 'int32_t' [-Wformat=]
+         sprintf( dataOut, "ODR[%d]: %d.%03d Hz\n", id, d1, d2 );
+         ^
+F:/STM32CubeExpansion_MEMS1_V2.0.0/Projects/Multi/Examples/DataLogTerminal/Src/main.c:315:9: warning: format '%d' expects argument of type 'int', but argument 5 has type 'int32_t' [-Wformat=]
+F:/STM32CubeExpansion_MEMS1_V2.0.0/Projects/Multi/Examples/DataLogTerminal/Src/main.c:315:9: warning: format '%d' expects argument of type 'int', but argument 4 has type 'int32_t' [-Wformat=]
+F:/STM32CubeExpansion_MEMS1_V2.0.0/Projects/Multi/Examples/DataLogTerminal/Src/main.c:315:9: warning: format '%d' expects argument of type 'int', but argument 5 has type 'int32_t' [-Wformat=]
+F:/STM32CubeExpansion_MEMS1_V2.0.0/Projects/Multi/Examples/DataLogTerminal/Src/main.c:327:9: warning: format '%d' expects argument of type 'int', but argument 4 has type 'int32_t' [-Wformat=]
+         sprintf( dataOut, "FS[%d]: %d.%03d g\n", id, d1, d2 );
+         ^
+F:/STM32CubeExpansion_MEMS1_V2.0.0/Projects/Multi/Examples/DataLogTerminal/Src/main.c:327:9: warning: format '%d' expects argument of type 'int', but argument 5 has type 'int32_t' [-Wformat=]
+F:/STM32CubeExpansion_MEMS1_V2.0.0/Projects/Multi/Examples/DataLogTerminal/Src/main.c:327:9: warning: format '%d' expects argument of type 'int', but argument 4 has type 'int32_t' [-Wformat=]
+F:/STM32CubeExpansion_MEMS1_V2.0.0/Projects/Multi/Examples/DataLogTerminal/Src/main.c:327:9: warning: format '%d' expects argument of type 'int', but argument 5 has type 'int32_t' [-Wformat=]
+F:/STM32CubeExpansion_MEMS1_V2.0.0/Projects/Multi/Examples/DataLogTerminal/Src/main.c: In function 'Gyro_Sensor_Handler':
+F:/STM32CubeExpansion_MEMS1_V2.0.0/Projects/Multi/Examples/DataLogTerminal/Src/main.c:390:9: warning: format '%d' expects argument of type 'int', but argument 4 has type 'int32_t' [-Wformat=]
+         sprintf( dataOut, "ODR[%d]: %d.%03d Hz\n", id, d1, d2 );
+         ^
+F:/STM32CubeExpansion_MEMS1_V2.0.0/Projects/Multi/Examples/DataLogTerminal/Src/main.c:390:9: warning: format '%d' expects argument of type 'int', but argument 5 has type 'int32_t' [-Wformat=]
+F:/STM32CubeExpansion_MEMS1_V2.0.0/Projects/Multi/Examples/DataLogTerminal/Src/main.c:390:9: warning: format '%d' expects argument of type 'int', but argument 4 has type 'int32_t' [-Wformat=]
+F:/STM32CubeExpansion_MEMS1_V2.0.0/Projects/Multi/Examples/DataLogTerminal/Src/main.c:390:9: warning: format '%d' expects argument of type 'int', but argument 5 has type 'int32_t' [-Wformat=]
+F:/STM32CubeExpansion_MEMS1_V2.0.0/Projects/Multi/Examples/DataLogTerminal/Src/main.c:402:9: warning: format '%d' expects argument of type 'int', but argument 4 has type 'int32_t' [-Wformat=]
+         sprintf( dataOut, "FS[%d]: %d.%03d dps\n", id, d1, d2 );
+         ^
+F:/STM32CubeExpansion_MEMS1_V2.0.0/Projects/Multi/Examples/DataLogTerminal/Src/main.c:402:9: warning: format '%d' expects argument of type 'int', but argument 5 has type 'int32_t' [-Wformat=]
+F:/STM32CubeExpansion_MEMS1_V2.0.0/Projects/Multi/Examples/DataLogTerminal/Src/main.c:402:9: warning: format '%d' expects argument of type 'int', but argument 4 has type 'int32_t' [-Wformat=]
+F:/STM32CubeExpansion_MEMS1_V2.0.0/Projects/Multi/Examples/DataLogTerminal/Src/main.c:402:9: warning: format '%d' expects argument of type 'int', but argument 5 has type 'int32_t' [-Wformat=]
+F:/STM32CubeExpansion_MEMS1_V2.0.0/Projects/Multi/Examples/DataLogTerminal/Src/main.c: In function 'Magneto_Sensor_Handler':
+F:/STM32CubeExpansion_MEMS1_V2.0.0/Projects/Multi/Examples/DataLogTerminal/Src/main.c:465:9: warning: format '%d' expects argument of type 'int', but argument 4 has type 'int32_t' [-Wformat=]
+         sprintf( dataOut, "ODR[%d]: %d.%03d Hz\n", id, d1, d2 );
+         ^
+F:/STM32CubeExpansion_MEMS1_V2.0.0/Projects/Multi/Examples/DataLogTerminal/Src/main.c:465:9: warning: format '%d' expects argument of type 'int', but argument 5 has type 'int32_t' [-Wformat=]
+F:/STM32CubeExpansion_MEMS1_V2.0.0/Projects/Multi/Examples/DataLogTerminal/Src/main.c:465:9: warning: format '%d' expects argument of type 'int', but argument 4 has type 'int32_t' [-Wformat=]
+F:/STM32CubeExpansion_MEMS1_V2.0.0/Projects/Multi/Examples/DataLogTerminal/Src/main.c:465:9: warning: format '%d' expects argument of type 'int', but argument 5 has type 'int32_t' [-Wformat=]
+F:/STM32CubeExpansion_MEMS1_V2.0.0/Projects/Multi/Examples/DataLogTerminal/Src/main.c:477:9: warning: format '%d' expects argument of type 'int', but argument 4 has type 'int32_t' [-Wformat=]
+         sprintf( dataOut, "FS[%d]: %d.%03d Gauss\n", id, d1, d2 );
+         ^
+F:/STM32CubeExpansion_MEMS1_V2.0.0/Projects/Multi/Examples/DataLogTerminal/Src/main.c:477:9: warning: format '%d' expects argument of type 'int', but argument 5 has type 'int32_t' [-Wformat=]
+F:/STM32CubeExpansion_MEMS1_V2.0.0/Projects/Multi/Examples/DataLogTerminal/Src/main.c:477:9: warning: format '%d' expects argument of type 'int', but argument 4 has type 'int32_t' [-Wformat=]
+F:/STM32CubeExpansion_MEMS1_V2.0.0/Projects/Multi/Examples/DataLogTerminal/Src/main.c:477:9: warning: format '%d' expects argument of type 'int', but argument 5 has type 'int32_t' [-Wformat=]
+'Finished building: F:/STM32CubeExpansion_MEMS1_V2.0.0/Projects/Multi/Examples/DataLogTerminal/Src/main.c'
+' '
+'Building target: STM32F4xx-Nucleo-DataLogTerminal.elf'
+'Invoking: MCU GCC Linker'
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -specs=nano.specs -T"../LinkerScript.ld" -Wl,-Map=output.map -Wl,--gc-sections -lm -o "STM32F4xx-Nucleo-DataLogTerminal.elf" @"objects.list"  -lm -lc
+'Finished building target: STM32F4xx-Nucleo-DataLogTerminal.elf'
+' '
+make --no-print-directory post-build
+'Generating binary:'
+arm-none-eabi-objcopy -O binary "STM32F4xx-Nucleo-DataLogTerminal.elf" "STM32F4xx-Nucleo-DataLogTerminal.bin"
+' '
+
+17:07:52 Build Finished (took 2s.316ms)
+

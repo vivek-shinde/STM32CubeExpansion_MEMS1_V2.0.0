@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;STM32F4xx-Nucleo-DataLogTerminal/Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOSConfig.h&apos; to &apos;FreeRTOSConfig_template.h&apos;" description="Rename resource &apos;FreeRTOSConfig.h&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOSConfig.h" name="FreeRTOSConfig_template.h" stamp="1460950687221" updateReferences="true"/>
+</session>
